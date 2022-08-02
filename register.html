@@ -24,46 +24,69 @@
 
 <body>
 
-        <div class="card" style="border-radius: 8px;">
-            <!-- <div class="row">
-            <div class="col">
-                <img id="image" src="https://picsum.photos/270/400" alt="">
-            </div> -->
+    <div class="card" style="border-radius: 8px;">
+        <h3 class="header-register">Register</h3>
+        <p class="p-Welcome">Welcome!</p>
 
-
-            <h3 class="header-register">Register</h3>
-            <p class="p-Welcome">Welcome!</p>
-            <form class="form" action="">
-                
-
-                <div class="input-group">
-                    <span class="input-group-text"><i class="fas fa-user"></i></span>
-                    <input type="text" class="form-control" name="username" id="username" placeholder="Username"
-                        required autofocus>
-                </div>
-
-                <div class="input-group">
-                    <span class="input-group-text"><i class="fa-solid fa-at"></i></span>
-                    <input type="text" class="form-control" name="email" id="email" placeholder="Email" required>
-                </div>
-                <div class="input-group">
-                    <span class="input-group-text"><i class="fa-solid fa-lock"></i></span>
-                    <input type="password" class="form-control" name="password" id="password" placeholder="Password"
-                        required>
-                </div>
-                <div >
-                    <button class="button" type="submit">Create Account</button>
-                </div>
-
-            </form>
-            <div class="card-footer">
-
-                <p class="p-login">Do have an account? <a class="link-light" href="login.html"> Login</a></p>
-
+        <form class="form" action="">
+            <div class="input-group">
+                <span class="input-group-text"><i class="fas fa-user"></i></span>
+                <input type="text" class="form-control" name="username" id="username" placeholder="Username" required
+                    autofocus>
             </div>
+            <div class="input-group">
+                <span class="input-group-text"><i class="fa-solid fa-envelope"></i></span>
+                <input type="text" class="form-control" name="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="input-group">
+                <span class="input-group-text"><i class="fa-solid fa-lock"></i></span>
+                <input type="password" class="form-control" name="password" id="password" placeholder="Password"
+                    required>
+            </div>
+            <div class="input-group">
+                <span class="input-group-text"><i class="fa-solid fa-phone"></i></span>
+                <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" >
+            </div>
+            <div class="input-group">
+                <span class="input-group-text"><i class="fa-solid fa-mars-and-venus"></i></span>
+                <div class="gender">
+                    <input type="radio" value="None" id="male" name="gender" checked />
+                    <label for="male" class="radio">Male</label>
+                    <input type="radio" value="None" id="female" name="gender" />
+                    <label for="female" class="radio">Female</label>
+                </div>
+            </div>
+            <div class="input-group">
+                <span class="input-group-text"><i class="fa-solid fa-calendar"></i></span>
+                <input type="date" name="birthday" id="birthday">
+            </div>
+            <div class="input-group">
+                <span class="input-group-text"><i class="fa-solid fa-city"></i></span>
+                <select id="city" name="city">
+                    <option value="seçiniz">Choose</option>
+                    <option value="0">Ankara</option>
+                    <option value="1">İstanbul</option>
+                    <option value="2">İzmir</option>
+                    <option value="3">Bursa</option>
+                    <option value="4">Antalya</option>
+                    <option value="5">Diyarbakır</option>
+                    <option value="6">Malatya</option>
+                    <option value="7">Trabzon</option>
+                    <option value="8">Samsun</option>
+                    <option value="9">Edirne</option>
+                </select>
+            </div>
+            <div>
+                <button class="button" type="submit">Create Account</button>
+            </div>
+        </form>
 
+        <div class="card-footer">
+
+            <p class="p-login">Do have an account? <a class="link-light" href="login.html"> Login</a></p>
 
         </div>
+    </div>
 
 </body>
 
