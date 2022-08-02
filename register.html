@@ -24,45 +24,46 @@
 
 <body>
 
-    <div class="container">
-        <div class="card">
-            <div class="row">
-                <div class="col">
-                    <img id="image" src="https://picsum.photos/250/395" alt="">
+        <div class="card" style="border-radius: 8px;">
+            <!-- <div class="row">
+            <div class="col">
+                <img id="image" src="https://picsum.photos/270/400" alt="">
+            </div> -->
+
+
+            <h3 class="header-register">Register</h3>
+            <p class="p-Welcome">Welcome!</p>
+            <form class="form" action="">
+                
+
+                <div class="input-group">
+                    <span class="input-group-text"><i class="fas fa-user"></i></span>
+                    <input type="text" class="form-control" name="username" id="username" placeholder="Username"
+                        required autofocus>
                 </div>
 
-                <div class="col">
-                    <h3 class="header">Register</h3>
-                    <p class="p">Welcome!</p>
-                    <form action="">
-                        <div class="row">
-                            <div class="col">
-                                <div class="input-group">
-                                    <span class="input-group-text"><i class="fas fa-user"></i></span>
-                                    <input type="text" class="form-control" name="username" id="username"
-                                        placeholder="username" required autofocus>
-                                </div>
-
-                                <div class="input-group">
-                                    <span class="input-group-text"><i class="fa-solid fa-at"></i></span>
-                                    <input type="text" class="form-control" name="email" id="email" placeholder="email"
-                                        required>
-                                </div>
-                                <div class="input-group">
-                                    <span class="input-group-text"><i class="fa-solid fa-lock"></i></span>
-                                    <input type="password" class="form-control" name="password" id="password"
-                                        placeholder="password" required>
-                                </div>
-
-                                <input class="btn btn-primary login_btn" type="submit" value="Create Account">
-                            </div>
-                        </div>
-                    </form>
+                <div class="input-group">
+                    <span class="input-group-text"><i class="fa-solid fa-at"></i></span>
+                    <input type="text" class="form-control" name="email" id="email" placeholder="Email" required>
                 </div>
+                <div class="input-group">
+                    <span class="input-group-text"><i class="fa-solid fa-lock"></i></span>
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Password"
+                        required>
+                </div>
+                <div >
+                    <button class="button" type="submit">Create Account</button>
+                </div>
+
+            </form>
+            <div class="card-footer">
+
+                <p class="p-login">Do have an account? <a class="link-light" href="login.html"> Login</a></p>
 
             </div>
+
+
         </div>
-    </div>
 
 </body>
 
