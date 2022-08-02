@@ -18,13 +18,10 @@ html,body {
 }
 
 .card {
-    width: 450px;
+    width: 500px;
     background-color: rgba(0, 0, 0, 0.5);
-    top:300px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 5px;
+    top: 20%;
+    padding: 20px;
     margin: auto;
     
     
@@ -38,12 +35,37 @@ html,body {
 form{
     display: block;
     
+    
 }
 .input-group-text {
+    
     width: 50px;
     background-color: #FFC312;
     color: black;
     border: none;
+}
+#phone{
+    border: none;
+    padding:5px 8px;
+    border-radius: 3px;
+
+}
+.gender{
+    color: #ffffff;   
+    padding:5px 8px;
+    
+}
+
+#birthday{
+    border: none;
+    border-radius: 3px;
+    padding: 5px 5px;
+}
+#city{
+    border: none;
+    border-radius: 3px;
+    padding: 5px 5px;
+    
 }
 
 .button {
