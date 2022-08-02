@@ -27,7 +27,7 @@ html,body {
     
 }
 
-.header-register,p {
+.header-login,p {
     text-align: center;
     color: white;
 }
@@ -44,29 +44,9 @@ form{
     color: black;
     border: none;
 }
-#phone{
-    border: none;
-    padding:5px 8px;
-    border-radius: 3px;
 
-}
-.gender{
-    color: #ffffff;   
-    padding:5px 8px;
-    
-}
 
-#birthday{
-    border: none;
-    border-radius: 3px;
-    padding: 5px 5px;
-}
-#city{
-    border: none;
-    border-radius: 3px;
-    padding: 5px 5px;
-    
-}
+
 
 .button {
     background-color: #FFC312;
